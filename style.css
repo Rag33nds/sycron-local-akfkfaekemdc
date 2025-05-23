@@ -19,7 +19,7 @@ video {
   height: 100%;
   border: 2px solid white;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-  pointer-events: none; /* letiltja az interakciókat */
+  pointer-events: none;
 }
 
 .logo {
@@ -27,5 +27,5 @@ video {
   bottom: 10px;
   left: 10px;
   width: 100px;
-  opacity: 0.1; /* halvány megjelenés */
+  opacity: 0.1;
 }
