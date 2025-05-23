@@ -23,9 +23,12 @@ video {
 }
 
 .logo {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  width: 100px;
-  opacity: 0.1;
+  position: fixed;         /* fix pozíció az oldalhoz képest */
+  bottom: 10px;            /* 10px-re az aljától */
+  left: 10px;              /* 10px-re a bal szélétől */
+  width: 100px;            /* méret */
+  opacity: 0.08;           /* halvány hatás */
+  pointer-events: none;    /* ne lehessen rákattintani */
+  user-select: none;       /* ne lehessen kijelölni */
 }
+
